@@ -1,0 +1,11 @@
+# Build output
+target/
+dist/
+node_modules/
+
+# Left behind only when an upgrade of sdk/ is interrupted
+/sdk.staging/
+/sdk.old/
+
+# Created by the first build.
+/Cargo.lock
